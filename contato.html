@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Contate-nos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Yoga, Contato, SAC, Dúvidas, Yoga contato">
+    <meta name="author" content="Diogo e Jean">
+    <meta name="description"
+        content="Esta página disponibiliza o contato da equipe para contato e dúvidas relacionadas">
+    <link rel="stylesheet" href="contato.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="img/jpg" href="icon_contato.png">
+    <script>
+
+        function validForms() {
+            var nome = inputform.nome.value;
+            var email = inputform.email.value;
+            var tel = inputform.tel.value;
+            var cpf = inputform.cpf.value;
+
+            if (nome == "") {
+                alert("preencha o campo nome");
+                inputform.nome.focus();
+                return false;
+            }
+
+            if (email == "") {
+                alert("preencha o campo email");
+                inputform.email.focus();
+                return false;
+            }
+
+            if (tel == "") {
+                alert("preencha o campo telefone");
+                inputform.tel.focus();
+                return false;
+            }
+
+            if (cpf == "") {
+                alert("preencha o campo cpf");
+                inputform.cpf.focus();
+                return false;
+            }
+
+            if (cpf.length != 14) {
+                alert("preencha o cpf no formato correto, 000.000.000-00");
+                inputform.cpf.focus();
+                return false;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <a href="contato.html" class="ctt">Contato</a>
+    <div class="iconesredes">
+        <a href=""><img src="insta.png" class="insta"></a>
+        <a href=""><img src="twitter.png" class="twitter"></a>
+    </div>
+
+    <img src="hand-drawn-people-talking-phone-illustration.png" class="imgcontatenos">
+    <img src="blob2.svg" class="bloobcontato">
+
+    <div class="container">
+
+        <div class="backmenu" id="backmenu-id"></div>
+
+        <div class="backgroundmenuicon"></div>
+        <img src="close_24dp_FILL0_wght400_GRAD0_opsz24(1).png" class="xis" id="xis-id" onclick="fechar()">
+        <img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.png" class="menuicon" id="menuicon-id" onclick="abrir()">
+
+        <ul class="menuitens" id="menuitens-id">
+            <li class="menu1"><span class="material-icons" id="material1">home</span>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="menu2"><span class="material-icons" id="material2">info</span>
+                <a href="sobre.html">Sobre</a>
+            </li>
+            <li class="menu3"><span class="material-icons" id="material3">health_and_safety</span>
+                <a href="aplicacoes.html">Aplicações</a>
+            </li>
+            <li class="menu4"><span class="material-icons" id="material4">mood</span>
+                <a href="efeitos.html">Efeitos</a>
+            </li>
+            <li class="menu5"><span class="material-icons" id="material5">school</span>
+                <a href="formacao.html">Formação</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <h1>Fale conosco</h1>
+
+    <div class="containerform">
+        <div class="caixasform">
+            <form name="inputform" class="inputform" action="#" method="post">
+
+                <input id="list-1-form" type="text" name="nome" placeholder="Nome" size="24px">
+
+                <input id="list-2-form" type="text" name="email" placeholder="Email" size="24px">
+
+                <input id="list-3-form" type="text" name="tel" placeholder="Telefone" size="24px">
+
+                <input id="list-4-form" type="text" name="cpf" placeholder="Cpf" size="24px">
+
+                <div class="txtarea">
+                    <textarea id="list-5-form" cols="42px" placeholder="Comentário"></textarea>
+                </div>
+                <div class="botoes">
+                    <input type="submit" value="Enviar" onclick="return validForms()">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="rodape">
+        <h5>Diogo e Jean 2024 - &copyTodos os direitos reservados.<br>
+            <div class="academico">Trabalho acadêmico sem fins lucrativos</div>
+        </h5>
+
+        <div class="politicas">
+            <a href="">Termos de uso |</a>
+            <a href="">Política de privacidade |</a>
+            <a href="">Cookies |</a>
+            <a href="">Para mídia</a>
+        </div>
+    </div>
+
+
+    <script src="menu.js"></script>
+</body>
+
+</html>

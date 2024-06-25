@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    min-height: 2000px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 12.3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+
+.backmenu {
+    width: 13%;
+    height: 36%;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 5%;
+    opacity: 100%;
+    margin-left: -18%;
+    transition: 1s ease-in-out;
+    transition-delay: 0.2s;
+    z-index: -1;
+}
+
+.backmenu-after {
+    backdrop-filter: blur(1px);
+    width: 13%;
+    height: 36%;
+    border-radius: 20px;
+    position: fixed;
+    margin-top: 5%;
+    opacity: 100%;
+    margin-left: 2.3%;
+    transition: 1s ease-out;
+    transition-delay: 0.1s;
+    z-index: 1000;
+}
+
+.menuitens {
+    margin-left: -10%;
+    list-style: none;
+    transition: 1.2s;
+    transition-delay: 0.15s;
+    position: fixed;
+    margin-top: 7%;
+    font-size: 17px;
+    z-index: 1000;
+}
+
+.menuitens span {
+    font-size: 18px;
+    position: absolute;
+    margin-left: -25px;
+    z-index: 1000;
+}
+
+.menuitens li {
+    margin-bottom: 15px;
+    z-index: 1000;
+}
+
+.menuitens-after {
+    margin-left: 6.9%;
+    list-style: none;
+    transition: 1.2s;
+    transition-delay: 0.3s;
+    position: fixed;
+    margin-top: 7%;
+    font-size: 17px;
+    z-index: 1000;
+}
+
+.menuitens-after li {
+    margin-bottom: 15px;
+    z-index: 1000;
+}
+
+
+.menuitens-after span {
+    font-size: 18px;
+    position: absolute;
+    margin-left: -25px;
+    z-index: 1000;
+}
+
+.menuicon {
+    width: 3%;
+    margin: 2% 5%;
+    position: fixed;
+    transition: 1s;
+    transition-delay: 0.2s;
+    z-index: 1000;
+}
+
+.menuicon-after {
+    width: 3%;
+    margin: -5% 5%;
+    position: fixed;
+    transition: 1s;
+    z-index: 1000;
+}
+
+.xis {
+    width: 2.65%;
+    margin: 2.45% -5%;
+    position: absolute;
+    transition: 1s;
+    position: fixed;
+    z-index: 1000;
+}
+
+.xis-after {
+    border-radius: 50%;
+    width: 2.65%;
+    margin: 2.45% 5.3%;
+    position: absolute;
+    position: fixed;
+    transition: 0.8s ease-out;
+    transition-delay: 0.7s;
+    z-index: 1000;
+}
+
+.menu5 {
+    background-color: rgba(175, 98, 175, 0.216);
+    padding: 2px 0px 3px 35px;
+    margin-left: -35%;
+    border-radius: 20px;
+}
+
+
+.ctt {
+    position: fixed;
+    margin-top: 1.8%;
+    margin-left: 90.26%;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1000;
+
+}
+
+.insta {
+    width: 1.6%;
+    margin-left: 83.76%;
+    margin-top: 1.9%;
+    position: fixed;
+    padding: 2px 5.3px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1000;
+}
+
+.twitter {
+    width: 1.6%;
+    position: fixed;
+    margin-top: 1.9%;
+    margin-left: 86.26%;
+    padding: 2px 5.3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1000;
+}
+
+.rodape {
+    background-color: rgba(156, 107, 179, 0.206);
+    height: 15vh;
+    width: 100%;
+    bottom: 0%;
+    z-index: 100;
+    align-content: center;
+    position: absolute;
+}
+
+.setinha {
+    position: absolute;
+    width: 2%;
+    margin-left: 96%;
+    margin-top: -1.5%;
+}
+
+
+h5 {
+    color: rgba(0, 0, 0, 0.613);
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.academico {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.613);
+    margin-top: 1%;
+}
+
+.politicas {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.politicas a {
+    color: rgba(0, 0, 0, 0.281);
+    font-size: 11px;
+}
+
+.primeiro_bloco_info {
+    background-color: rgb(231, 236, 240);
+    width: 100%;
+    height: 113%;
+    position: absolute;
+    z-index: -1;
+}
+
+.imagemformacao {
+    position: absolute;
+    width: 45%;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+
+.formacaoprofissional {
+    font-family: "poetsen one", sans-serif;
+    position: absolute;
+    font-size: 50px;
+    margin-top: 7%;
+    margin-left: 22.5%;
+}
+
+.primeiro_yoga {
+    background-color: white;
+    height: 250px;
+    width: 150px;
+    /* border: solid 2px black;
+    box-shadow: inset 0 0 0 2px rgb(92, 92, 243); */
+    box-shadow: 0px 0px 15px rgba(105, 105, 105, 0.244);
+    border-radius: 25px;
+}
+
+.box-yoga {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    margin-top: 29%;
+    margin-left: 19.7%;
+}
+
+
+.certificado {
+    height: 50%;
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 2%;
+}
+
+.descricao-formacao {
+    position: absolute;
+    width: 38%;
+    margin-top: 13%;
+    margin-left: 23%
+}
+
+.primeiro_yoga p {
+    width: 94%;
+    font-size: 13px;
+    margin-top: 30%;
+    margin-left: 4%;
+
+}
+
+.segundo_bloco_info {
+    margin-top: 48.2%;
+    position: absolute;
+    width: 100%;
+    height: 165vh;
+    background-color: rgb(128, 174, 197);
+    background: url(adult-woman-practicing-yoga-home.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+
+.bloob-bloco-2 {
+    position: absolute;
+    width: 55%;
+    margin-top: 18%;
+    margin-left: 45%;
+}
+
+.terceiro_bloco_info .conect-background-2 {
+    transform: rotateX(180deg);
+    transform: rotateZ(180deg);
+    position: absolute;
+    margin-top: -19%;
+}
+
+.terceiro_bloco_info {
+    height: 104vh;
+    width: 100%;
+    background-color: rgb(231, 236, 240);
+    z-index: 10;
+    position: absolute;
+    margin-top: 130%;
+}
+
+
+.o_profissional {
+    font-family: "poetsen one", sans-serif;
+    position: absolute;
+    font-size: 65px;
+    margin-top: -2%;
+    margin-left: 22.5%;
+    color: rgb(0, 0, 0);
+}
+
+.txt_sobre_profissional {
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 8%;
+    z-index: 100;
+    position: absolute;
+}
+
+.bloco_informacao {
+    background-color: rgb(238, 242, 245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.169);
+    width: 380px;
+    height: 420px;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 56%;
+    margin-top: 9%;
+}
+
+.menina_fazendo_yoga_3_parte {
+    width: 50%;
+    position: absolute;
+    margin-top: -2.26%;
+    margin-left: 50%;
+}
+
+
+.terceiro_bloco_info .bloco_informacao {
+    background-color: rgb(238, 242, 245);
+    box-shadow: 0px 0px 10px rgba(152, 152, 152, 0.293);
+    width: 380px;
+    height: 420px;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 19%;
+    margin-top: 6%;
+}
+
+.terceiro_bloco_info .como_atua {
+    font-family: "poetsen one", sans-serif;
+    position: absolute;
+    font-size: 57px;
+    margin-top: -5%;
+    margin-left: 19.5%;
+    color: rgb(0, 0, 0);
+}
+
+.terceiro_bloco_info .txt_sobre_atuacao {
+    margin-left: 8%;
+    margin-right: 6%;
+    margin-top: 9.8%;
+    z-index: 100;
+    position: absolute;
+}
