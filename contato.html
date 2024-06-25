@@ -48,6 +48,9 @@
                 alert("preencha o cpf no formato correto, 000.000.000-00");
                 inputform.cpf.focus();
                 return false;
+            } else {
+                alert("Formulário enviado com sucesso!");
+                window.location.href = 'index.html';
             }
         }
 
@@ -96,7 +99,7 @@
 
     <div class="containerform">
         <div class="caixasform">
-            <form name="inputform" class="inputform" action="#" method="post">
+            <form name="inputform" class="inputform" action="#" method="get">
 
                 <input id="list-1-form" type="text" name="nome" placeholder="Nome" size="24px">
 
